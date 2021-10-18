@@ -17,7 +17,7 @@ int binary_search(int ar[],int n,int key){
 }
 
 int main(){
-	int ar[]={1,2,3,4,5,6,7,8};
+	int ar[]={1,2,3,4,5,10,15,20};
 	int ans = binary_search(ar,8,9);
 	if(ans != -1)
 		cout<<ans<<endl;
